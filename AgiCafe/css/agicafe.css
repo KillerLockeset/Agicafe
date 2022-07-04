@@ -1,0 +1,169 @@
+	body{
+		font-family: arial;
+	}
+	ul{
+		position: relative;
+	 	
+	}
+	a:hover{
+		color: #FFFFFF;
+		;
+	}
+
+	a{
+		color: #D8D8D8;
+		
+	}
+	}
+	ul li a{
+		text-decoration: none;
+		color: white;
+		padding: 15px;
+		display: block;
+	}
+	ul li:hover{
+		background: #585858;
+	} 
+	ul ul{
+		position: absolute;
+		min-width: 200px;
+		display: none;
+		background: #585858;	
+	}
+	ul ul li{
+		display: block;
+		background: #585858;
+	}
+	ul li:hover ul{
+		display: block;
+	}
+		img#intro{
+			margin-left: -15px;
+		}
+
+		
+		div#introtext{
+			padding-top: 20px;
+		}
+
+		div#top3{
+			box-shadow: -1px 1px 10px black;
+		}
+
+		h5#rede{
+			margin: 10px;
+			margin-top: 50px;
+		}
+
+		img#rede{
+			margin-left: 25px;
+		}
+
+		h5#termos{
+			margin-top: 70px;
+		}
+
+		h5#ctt{
+			margin-top: 50px;
+		}
+
+
+		.menu-box{
+		padding: 70px 0px;
+	}
+
+	.heading-title{
+		margin-bottom: 50px;
+	}
+	.heading-title h2{
+		color: #010101;
+		font-size: 28px;
+		font-family: 'arial', serif;
+	}
+	.heading-title p{
+		font-size: 18px;
+		font-weight: 200;
+		margin: 0px;
+	}
+
+	.filter-button-group {
+	    border: 1px solid #e4e4e4;
+	    border-radius: 4px;
+	    margin: 10px 15px;
+	    display: inline-block;
+	}
+
+	.filter-button-group button {
+	    color: #333;
+	    letter-spacing: 1px;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    font-size: 14px;
+	    cursor: pointer;
+	    background: #fff;
+	    padding: 12px 40px;
+	    border: none;
+	    border-radius: 4px;
+	}
+
+	.filter-button-group button.active {
+	    background: #cfa671;
+	    color: #fff;
+	    box-shadow: 2px 20px 45px 5px
+	}
+
+	.gallery-single{
+		margin: 50px 5px;
+
+	}
+
+	.gallery-single {
+	    position: relative;
+	    overflow: hidden;
+	    box-shadow: 0 0 px #ccc;
+	    box-shadow: 0 0 px #ccc;
+	}
+
+	.why-text {
+	    position: absolute;
+	    left: 0;
+	    bottom: -100%;
+	    right: 0;
+	    height: 100%;
+	    background: rgba(207, 166, 113, 0.8);
+	    padding: 12px 12px;
+	    transition: all .3s ease;
+	    transition: all .3s ease;
+	}
+	.why-text h4{
+		color: #ffffff;
+		font-size: 24px;
+		font-weight: 500;
+		font-family: 'Arial', serif;
+	}
+	.why-text p{
+		color: #ffffff;
+		font-size: 18px;
+		border-bottom: 1px dashed #010101;
+		margin: 0px;
+		padding-bottom: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.why-text h5{
+		font-size: 28px;
+		font-weight: 600;
+		color: #ffffff;
+	}
+
+	.gallery-single:hover .why-text{
+		bottom: 0px;
+	}
+
+	a#termos:hover{
+		color: white;
+	}
+
+	a#termos{
+		color: lightblue;
+	}
